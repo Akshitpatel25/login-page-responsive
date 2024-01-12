@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Source+Code+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+
+body {
+    background-color: rgb(252, 229, 233);
+}
+
+.main {
+    width: 30%;
+    /* height: 200px; */
+    /* background-color: darkblue; */
+    margin: auto;
+    margin-top: 80px;
+    /* border: 2px solid black; */
+    display: flex;
+    
+}
+@media screen and (max-width: 1025px) {
+    .main {
+        width: 80%;
+        /* display: block; */
+    }
+}
+@media screen and (max-width: 550px) {
+    .main {
+        width: 100%;
+        display: block;
+    }
+}
+.first_box {
+    width: 100%;
+    text-align: center;
+    margin: 15px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.login_text {
+    font-size: 1.8em;
+    margin: 10px;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+@media screen and (max-width: 1025px) {
+    .first_box {
+        /* width: 50%; */
+        font-size: 1.4em;
+        /* margin-left: 0px; */
+    }
+    
+}
+@media screen and (max-width: 550px) {
+    .first_box {
+        width: 90%;
+        font-size: 1em;
+        margin: 15px;
+    }
+}
+
+.logo {
+    box-sizing: border-box;
+    margin: 20px;
+    /* border: 2px solid black; */
+}
+.twitter_logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-image: url(5ca98c73b2bb7a02bf8350933c7ca443.jpg);
+    background-size: cover;
+    margin-right: 20px ;
+    cursor: pointer;
+}
+.fb_logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-image: url(743397.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.or_use {
+    height: 20px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.or_use a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.email {
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+input[type="email"] {
+    width: 300px; /* Set the desired width */
+    padding: 20px; /* Optional: Add padding for better appearance */
+    font-size: 1em; /* Optional: Adjust font size */
+    margin: 10px;
+    background-color: #ece8e8;
+    border: 0px; /* Set the border style and color */
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+.pass {
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    
+}
+input[type="password"] {
+    width: 300px; /* Set the desired width */
+    padding: 20px; /* Optional: Add padding for better appearance */
+    font-size: 1em; /* Optional: Adjust font size */
+    margin: 10px;
+    background-color: #ece8e8;
+    border: 0px; /* Set the border style and color */
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+.forget_pass {
+    height: 20px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+    cursor: pointer;
+}
+.forget_pass a {
+    color: black;
+    text-decoration: none;
+}
+.login {
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+button {
+    width: 150px; /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    padding: 10px; /* Optional: Add padding for better appearance */
+    font-size: 16px; /* Optional: Adjust font size */
+    border-radius: 25px;
+    border: 0px;
+    background-color: #EE3339;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    cursor: pointer
+}
